@@ -1,5 +1,3 @@
-tarifku|180238@ku.ac.bd|7888|khulna|images/Create Table By SQL (2).png
-180238@ku.ac.bd|180238@ku.ac.bd|1111|khulna|images/Create Table By SQL (2).png
-180238@ku.ac.bd|180238@ku.ac.bd|1234|khulna|images/Create Table By SQL (2).png
-tarifku|180238@ku.ac.bd|1234|khulna|images/Create Table By SQL (2).png
 tarif|v@gmail.com|1234|Khulna|images/1-2203070125.jpg
+naim2024|ashique@gmail.com|khulnauniversity|khulna|images/nature.jpg
+tarifku|tarif@gmail.com|1234|khulna|images/pic.jpg

@@ -5,6 +5,9 @@ if (!isset($_SESSION["email"])) {
     exit;
 }else{
   $email=$_SESSION['email'];
+  $address=$_SESSION['address'];
+  $image=$_SESSION['image'];
+  $username=$_SESSION['username'];
 }
 
 ?>

@@ -8,10 +8,14 @@ $password = $_POST["password"];
 // Check user credentials against stored data
 $userData = file("File Storage/users.txt", FILE_IGNORE_NEW_LINES);
 foreach ($userData as $user) {
-    list(, $storedEmail, $storedPassword, , ) = explode("|", $user); // Extract email and password
+    list($storedUsername, $storedEmail, $storedPassword, $storedAddress, $storedImage) = explode("|", $user); // Extract email and password
     if ($email === $storedEmail && $password === $storedPassword) {
         // Authentication successful, start session and redirect
         $_SESSION["email"] = $email; // Store email in session
+        $_SESSION['username']=$storedUsername;
+        $_SESSION['address']=$storedAddress;
+        $_SESSION['image']=$storedImage;
+        $_SESSION['password']=$password;
         header("Location: home.php");
         exit;
     }
