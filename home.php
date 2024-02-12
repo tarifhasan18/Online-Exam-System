@@ -65,7 +65,7 @@ if (!isset($_SESSION["email"])) {
         <li><a href="#">About Us</a></li>
         <li><a href="#">Contact Us</a></li>
         <li><a href="logout.php">Logout</a></li>
-        <li><a href="#"><?php echo $email; ?></a></li>
+        <li><img style="float: left;  border-radius: 50%;" width="30px" height="30px" src="<?php echo $image;?>"><a href="profile.php" style="float: left; margin-top: 5px"><?php echo $username;?></a> </li>
 
       </div>
     </ul>
