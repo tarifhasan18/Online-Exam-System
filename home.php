@@ -72,7 +72,27 @@ if (!isset($_SESSION["email"])) {
   </nav>
 
 
+  <br><br>
+  <h2 style="text-align: center;">Select a Class</h2>
 <div class="category">
+
+<?php
+// Read class names from the file
+$classData = file("File storage/class.txt");
+
+// Output each class name
+foreach ($classData as $className) {
+    // Skip empty lines
+    if (trim($className) !== '') {
+        ?>
+        <form id="class" action="home.php" method="post">
+            <input type="text" name="class" value="<?php echo $className; ?>" hidden="">
+            <input id="classname" type="submit" name="submit" value="<?php echo $className; ?>">
+        </form>
+        <?php
+    }
+}
+?>
 
 
 </div>
