@@ -9,7 +9,12 @@ if (!isset($_SESSION["email"])) {
   $image=$_SESSION['image'];
   $username=$_SESSION['username'];
 }
-
+if (isset($_POST['submit'])) {
+  $_SESSION['class']=$_POST['class'];
+    if (isset($_SESSION['class'])){
+        header("Location: subject.php");
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
