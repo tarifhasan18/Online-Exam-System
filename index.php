@@ -120,7 +120,7 @@ span.psw {
 
     <label for="password"><b>Password</b></label><br>
     <input type="password" placeholder="Enter Password" name="password" required><br>
-        
+        <label for=""><a href="forgetpassword.php">Forget Password</a></label> <br>
     <button type="submit" name="login">Login</button>
   </div>
   <hr style="width:270px; margin-left: 220px;"> <br>
