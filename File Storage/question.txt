@@ -1,0 +1,5 @@
+Class One|Mathematics|1 + 1 = ?|1|2|3|4|2
+Class One|Mathematics|2 + 2 = ??|2|3|4|5|4
+Class One|Bengali|স্বরবর্ণ কয়টি? |২|১০|১১|৯|১১
+Class One|Mathematics|3 + 0 = ?|0|3|2|1|3
+Class One|Mathematics|4 + 0 = ?|0|1|2|4|4
