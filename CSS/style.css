@@ -6,7 +6,7 @@
 }
 
 body {
-  /*font-family: cursive;*/
+font-family: cursive;
 }
 
 a {
@@ -82,4 +82,344 @@ li {
 
 .services:hover .dropdown {
   display: block;
+}
+#contact_category{
+ border: 2px solid black;
+ width: 830px;
+ margin-left: 250px;
+ margin-top: 60px;
+ padding: 10px;
+ height: 100%;
+
+}
+.contact_div1{
+ background-color: deeppink;
+ padding-top: 23px;
+ float: left;
+ margin:  25px;
+ width: 200px;
+ height: 70px;
+ text-align: center;
+}
+#contact_countdown{
+  float: right;
+
+}
+#contact_result{
+ border: 1px solid black;
+ margin-top: 6px;
+ margin-left: 440px;
+ width: 460px;
+ padding: 20px;
+}
+#contact_form{
+ width: 470px;
+ border: 1px solid black;
+ margin-left: 400px;
+ margin-top: 10px;
+ padding: 20px;
+}
+#contact_input{
+ width: 370px;
+ height: 40px;
+ padding: 10px;
+ margin-left: 30px;
+}
+#contact_input_submit{
+ width: 80px;
+ height: 40px;
+ background-color: blue;
+ color: white;
+ font-weight: bold;
+ border: 1px solid blue;
+ margin-left: 170px;
+}#contact_input_submit:hover{
+ cursor: pointer;
+ background-color: darkgreen;
+ color: white;
+ font-weight: bold;
+}
+.forget_password_category{
+  border: 2px solid black;
+  width: 815px;
+  margin-left: 250px;
+  margin-top: 10px;
+  padding: 40px;
+  height: 540px;
+}
+.forget_password_div1{
+  background-color: deeppink;
+  padding-top: 23px;
+  float: left;
+  margin:  25px;
+  width: 200px;
+  height: 70px;
+  text-align: center;
+}
+#forget_password_class{
+  float: left;
+}
+#forgetpassword{
+  border: 1px solid black;
+  margin-left: 400px;
+  width: 400px;
+  margin-top: 50px;
+  padding: 20px;
+}
+#forgetpassword_otp{
+  border: 1px solid black;
+  margin-left: 400px;
+  width: 400px;
+  margin-top: 50px;
+  padding: 20px;
+}
+#class{
+  float: left;
+
+}
+#classname{
+  background-color: deeppink;
+  color: white;
+  width: 220px;
+  height: 100px;
+  margin: 10px;
+  font-weight: bold;
+}
+#classname:hover{
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+#index_form{
+  border: 3px solid #f1f1f1; 
+  width: 700px; 
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+#index_input_text, #index_input_password{
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#index_button {
+  background-color: #0866FF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+}
+
+#index_button:hover {
+  opacity: 0.8;
+}
+#subject {
+  float: left;
+}
+#subjectname {
+  background-color: #1C1C1C;
+  color: white;
+  width: 220px;
+  height: 100px;
+  margin: 10px;
+  font-weight: bold;
+}
+#subjectname:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+#signup_form {
+  border: 3px solid #f1f1f1; 
+  width: 700px; 
+  margin-left: 300px;
+  margin-top: 50px;
+  height: 490px;
+}
+#signup_input_text, #signup_input_password{
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#signup_button {
+  background-color: #0866FF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+}
+#signup_button:hover {
+  opacity: 0.8;
+}
+.scrollable-div {
+  width: 420px; /* Set the width of the div */
+  height: 250px; /* Set the height of the div */
+  overflow: auto; /* Add scrollbars when content overflows */
+  border: 1px solid #ccc; /* Add border for visualization */
+  padding: 10px; /* Add padding for content */
+  float: left;
+  margin-left: 10px;
+}
+#result_display_category{
+  margin-left: 200px;
+  border: 2px solid black;
+  height: 600px;
+  width: 900px;
+  margin-top:10px;
+}
+#result{
+  margin-left: 400px;
+}
+#scroll{
+  margin-top: 20px;
+}
+#reset_password{
+  border: 1px solid black;
+  margin-left: 400px;
+  width: 400px;
+  margin-top: 50px;
+  padding: 20px;
+}
+.profile_category{
+  border: 2px solid black;
+  width: 815px;
+  margin-left: 250px;
+  margin-top: 10px;
+  padding: 40px;
+  height: 540px;
+}
+#profile_update{
+  margin-left: 80px;
+  width: 200px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+  text-align: center;
+  font-size: 17px;
+}
+#profile_update:hover{
+  cursor: pointer;
+  color: white;
+  background-color: purple;
+
+}
+#profile_nav2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 170px;
+  background-color: #f1f1f1;
+  height: 700px;
+  float: left
+}#profile_li2 a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.profileresult_cat {
+  padding: 10px;
+  height: 500px;
+  float: left;
+  border: ;
+  margin-left: 5px;
+  margin-top: 50px;
+  width: 800px;
+}
+#profileresult_nav2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 170px;
+  background-color: #f1f1f1;
+  height: 700px;
+  float: left
+}
+#profileresult_li2 a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+#profileresults_customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 1010px;
+  margin-left: 5px;
+}
+#profileresults_customers td,
+#profileresults_customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#profileresults_customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#profileresults_customers tr:hover {
+  background-color: #ddd;
+}
+
+#profileresults_customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+#question_category {
+  border: 2px solid black;
+  width: 830px;
+  margin-left: 250px;
+  margin-top: 60px;
+  padding: 10px;
+  height: 100%;
+}
+#countdown {
+  font-size: 18px;
+}
+#examdetails{
+  text-align: center;
+  font-weight: bold;
+}
+#remainingTime{
+  float: left;
+}
+#examstarted{
+  float: right;
+}
+#submit_answer{
+  background-color: blue;
+  padding: 7px;
+  color: white;
+  font-weight: bold;
+  border: 1px solid blue;
+  margin-left: 350px;
+}
+#submit_answer:hover{
+  cursor: pointer;
+  opacity: .8;
 }
