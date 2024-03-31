@@ -88,179 +88,37 @@ if (isset($_POST['delete'])) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../CSS/style.css" />
   <title>Online Examination System</title>
-<style type="text/css">
-  body{
-    font-family: cursive;
-  }
-  .cat{
-    padding: 10px;
-    height: 500px;
-    float: left;
-  }
-  button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 60%;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-  .div1{
-    background-color: deeppink;
-    padding-top: 23px;
-    float: left;
-    margin:  25px;
-    width: 200px;
-    height: 70px;
-    text-align: center;
-  }
-#nav2 {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-  height: 700px;
-  float: left
-}
-
-#li2 a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-li a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
-#form1 {
-  		border: 3px solid #f1f1f1; 
-  		width: 500px;
-  		margin-left: 250px;
-  		margin-top: 50px;
-      padding:30px;
-  	}
-
-input[type=text], input[type=password] {
-  width: 60%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  /*display: inline-block;*/
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-
-  border: none;
-  cursor: pointer;
-  width: 40%;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-#customers {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 600px;
-  margin-left: 190px;
-  margin-top: 50px;
-}
-
-#customers td, #customers th {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: center;
-}
-
-#customers tr:nth-child(even){background-color: #f2f2f2;}
-
-#customers tr:hover {background-color: #ddd;}
-
-#customers th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: center;
-  background-color: #04AA6D;
-  color: white;
-}
-.form2{
-  text-align: center;
-  margin-left: 60px;
-}
-#button1{
-   background-color: red;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  float: left;
-  border: none;
-  cursor: pointer;
-  width: 30%;
-  margin: 2px;
-}
-#button1:hover{
-  background-color: blue;
-  color: white;
-}
-</style>
 </head>
-
 <body>
   <nav class="navbar">
-   
     <div class="logo">Online Examination System</div>
-
     <ul class="nav-links">
-
       <div class="menu">
-        
         <li><a href="logout.php">Logout</a></li>
           <li><?php echo $_SESSION['email']?></li>
-
       </div>
     </ul>
   </nav> 
 <ul id="nav2">
   <li id="li2"><a class="" href="#home">Dashboard</a></li>
   <hr>
-    <li id="li2"><a class="" href="home.php">Home</a></li>
-
+  <li id="li2"><a class="" href="home.php">Home</a></li>
   <li id="li2"><a href="addclass.php">Add Class</a></li>
   <li id="li2"><a class="active" href="addsubject.php">Add Subject</a></li>
   <li id="li2"><a href="#">Schedule Exam</a></li>
   <li id="li2"><a href="#">Add Question</a></li>
   <li id="li2"><a href="#">Manage Users</a></li>
   <li id="li2"><a href="#">Results</a></li>
-
 </ul>
  
-<div class="cat">
-    
-  <form id="form1" action="addsubject.php" method="post">
+<div class="addsubject_cat">
+  <form id="addsubject_form" action="addsubject.php" method="post">
   <p for="">Enter Class & Subject name</p>
-    <input type="text" name="class" placeholder="Enter class name" required><br>
-    <input type="text" name="subject" placeholder="Enter subject name" required><br>
-    <button type="submit" name="addsubject">Add Subject</button>
+    <input class="addsubject_input_text" type="text" name="class" placeholder="Enter class name" required><br>
+    <input class="addsubject_input_text" type="text" name="subject" placeholder="Enter subject name" required><br>
+    <button id="addsubject_button " type="submit" name="addsubject">Add Subject</button>
   </form>
-  <table id="customers">
+  <table id="addsubject_customers">
         <thead>
             <tr>
                 <th>Class Name</th>
@@ -269,10 +127,9 @@ button:hover {
             </tr>
         </thead>
         <tbody>
-            <?php
-                    // Read class and subject names from the file
+        <?php
+              
         $subjectData = file("../File Storage/subject.txt", FILE_IGNORE_NEW_LINES);
-            // Read class names from the file
         foreach ($subjectData as $line) {
             // Split the line into class and subject
             list($className, $subjectName) = explode("|", $line);
@@ -299,6 +156,5 @@ button:hover {
         </tbody>
     </table>
 </div>
-    
 </body>
 </html>

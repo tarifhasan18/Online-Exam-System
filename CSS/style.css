@@ -423,3 +423,555 @@ li a:hover:not(.active) {
   cursor: pointer;
   opacity: .8;
 }
+.addclass_cat{
+  padding: 10px;
+  height: 500px;
+  float: left;
+}
+#addclass_button {
+background-color: #04AA6D;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 60%;
+}
+
+#addclass_button:hover {
+opacity: 0.8;
+}
+#addclass_nav2 {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 200px;
+background-color: #f1f1f1;
+height: 700px;
+float: left
+}
+#addclass_li2 a {
+display: block;
+color: #000;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+li a.active {
+background-color: #04AA6D;
+color: white;
+}
+
+li a:hover:not(.active) {
+background-color: #555;
+color: white;
+}
+#addclass_form {
+    border: 3px solid #f1f1f1; 
+    width: 500px;
+    margin-left: 250px;
+    margin-top: 50px;
+    padding:30px;
+}
+#addclass_input_text, #addclass_input_password{
+width: 60%;
+padding: 12px 20px;
+margin: 8px 0;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+#addclass_customers {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 600px;
+margin-left: 190px;
+margin-top: 50px;
+}
+
+#addclass_customers td, #addclass_customers th {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+}
+
+#addclass_customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#addclass_customers tr:hover {background-color: #ddd;}
+
+#addclass_customers th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: #04AA6D;
+color: white;
+}
+.addquestion_cat{
+  padding: 10px;
+  height: 500px;
+  float: left;
+}
+button {
+background-color: #04AA6D;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 60%;
+}
+
+button:hover {
+opacity: 0.8;
+}
+#nav2 {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 170px;
+background-color: #f1f1f1;
+height: 800px;
+float: left
+}
+
+#addquestion_li2 a {
+display: block;
+color: #000;
+padding: 8px 16px;
+text-decoration: none;
+}
+#addquestion_form1 {
+    border: 3px solid #f1f1f1; 
+    width: 700px; 
+    margin-left: 200px;
+    margin-top: 0px;
+    padding:30px;
+    float: left;
+  }
+.addquestion_input_text{
+width: 80%;
+padding: 12px 20px;
+margin: 8px 0;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+button {
+background-color: #04AA6D;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 60%;
+}
+
+button:hover {
+opacity: 0.8;
+}
+#addquestion_customers {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 1200px;
+  margin-top: 100px;
+}
+
+#addquestion_customers td, #addquestion_customers th {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+}
+
+#addquestion_customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#addquestion_customers tr:hover {background-color: #ddd;}
+
+#addquestion_customers th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: #04AA6D;
+color: white;
+}
+.addsubject_cat{
+  padding: 10px;
+  height: 500px;
+  float: left;
+}
+#li2 a {
+display: block;
+color: #000;
+padding: 8px 16px;
+text-decoration: none;
+}
+#addsubject_form {
+    border: 3px solid #f1f1f1; 
+    width: 500px;
+    margin-left: 250px;
+    margin-top: 50px;
+    padding:30px;
+  }
+
+.addsubject_input_text {
+width: 60%;
+padding: 12px 20px;
+margin: 8px 0;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+#addsubject_button {
+background-color: #04AA6D;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 40%;
+}
+
+#addsubject_button :hover {
+opacity: 0.8;
+}
+#addsubject_customers {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 600px;
+margin-left: 190px;
+margin-top: 50px;
+}
+
+#addsubject_customers td, #addsubject_customers th {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+}
+
+#addsubject_customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#addsubject_customers tr:hover {background-color: #ddd;}
+
+#addsubject_customers th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: #04AA6D;
+color: white;
+}
+.editclass_cat{
+  margin-left: 250px;
+  margin-top: 60px;
+  padding: 10px;
+  height: 500px;
+  float: left;
+}
+#editclass{
+          width: 170px;
+          background-color: darkcyan;
+          color: white;
+          border: 1px solid darkcyan;
+          height: 40px;
+          font-weight: bold;
+          font-size: 17px;
+          margin-top: 30px;
+          margin-left: 100px;
+}
+#editclass:hover{
+          background-color: darkblue;
+          color: white;
+          cursor: pointer;
+}
+#editclass_form{
+          border: 1px solid black;
+          width: 400px;
+          padding-left: 30px;
+          padding-top: 20px;
+          padding-bottom: 30px;
+          margin-left: 100px;
+          margin-top: 10px;
+}
+#newClassName{
+        padding: 10px;
+}
+.editexam_cat{
+  padding: 10px;
+  height: 500px;
+  float: left;
+}
+
+.editexam_input_text{
+  width: 350px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#editexam_form{
+  border: 1px solid black;
+  width: 500px;
+  padding-left: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 250px;
+  margin-top: 0px;
+}
+input[type=datetime-local]{
+  width: 200px;
+  height: 30px;
+}
+#editexam{
+  width: 140px;
+  height: 40px;
+  background-color: darkcyan;
+  border: 1px solid darkcyan;
+  color: white;
+  margin-left: 80px;
+}#editexam:hover{
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+}
+.editquestion_cat {
+  margin-left: 250px;
+  margin-top: 60px;
+  padding: 10px;
+  height: 500px;
+  float: left;
+}
+#edit {
+  width: 170px;
+  background-color: darkcyan;
+  color: white;
+  border: 1px solid darkcyan;
+  height: 40px;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+#edit:hover {
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+}
+
+#editquestion_form {
+  border: 1px solid black;
+  width: 400px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.editsubject_cat{
+  margin-left: 250px;
+  margin-top: 60px;
+  padding: 10px;
+  height: 500px;
+  float: left;
+}
+      #edit_question{
+          width: 170px;
+          background-color: darkcyan;
+          color: white;
+          border: 1px solid darkcyan;
+          height: 40px;
+          font-weight: bold;
+          font-size: 17px;
+          margin-top: 30px;
+          margin-left: 100px;
+      }
+      #edit_question:hover{
+          background-color: darkblue;
+          color: white;
+          cursor: pointer;
+      }
+      #editquestion_form{
+          border: 1px solid black;
+          width: 400px;
+          padding-left: 30px;
+          padding-top: 20px;
+          padding-bottom: 30px;
+          margin-left: 100px;
+          margin-top: 10px;
+      }
+      .home_cat{
+        margin-left: 250px;
+        margin-top: 60px;
+        padding: 10px;
+        height: 500px;
+        float: left;
+      }
+      #admin_login_form{
+        border: 3px solid #f1f1f1; 
+        width: 700px; 
+        margin-left: 300px;
+        margin-top: 50px;
+      }
+  
+  #admin_index_input_text, #admin_index_input_password {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .admin_result_cat{
+    padding: 10px;
+    height: 500px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 50px;
+    width: 800px;
+}
+button:hover {
+    opacity: 0.8;
+}
+#admin_result {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 1010px;
+    margin-left: 5px;
+}
+
+#admin_result td, #admin_result th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#admin_result tr:nth-child(even){background-color: #f2f2f2;}
+
+#admin_result tr:hover {background-color: #ddd;}
+
+#admin_result th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+#delete{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 1px solid red;
+    padding: 5px;
+}
+#delete:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+.scheduleexam_cat{
+  padding: 10px;
+  height: 500px;
+  float: left;
+}
+#scheduleexam_form {
+  border: 3px solid #f1f1f1;
+  width: 500px;
+  margin-left: 290px;
+  margin-top: 0px;
+  padding:30px;
+}
+#examname_admin {
+  width: 350px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#scheduleexam_list {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 1000px;
+  margin-left: 0px;
+}
+
+#scheduleexam_list td, #scheduleexam_list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#scheduleexam_list tr:nth-child(even){background-color: #f2f2f2;}
+
+#scheduleexam_list tr:hover {background-color: #ddd;}
+
+#scheduleexam_list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+#scheduleexambutton{
+  background-color: red;
+  color: white;
+  margin: 8px 0;
+  float: left;
+  border: none;
+  cursor: pointer;
+  width: 70px;
+  margin-left: 5px; 
+}
+#scheduleexambutton:hover{
+  background-color: blue;
+  color: white;
+}
+input[type=datetime-local]{
+  width: 200px;
+  height: 30px;
+}
+.users_cat{
+  padding: 10px;
+  height: 500px;
+  float: left;
+  border: ;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 800px;
+}
+#user_list {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 100px;
+}
+
+#user_list td, #user_list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#user_list tr:nth-child(even){background-color: #f2f2f2;}
+
+#user_list tr:hover {background-color: #ddd;}
+
+#user_list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+#remove_user{
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin-left: 28px;
+  float: ;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  margin: 2px;
+}
+#remove_user:hover{
+  background-color: blue;
+  color: white;
+}
